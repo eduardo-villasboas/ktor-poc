@@ -16,6 +16,5 @@ fun main() {
 }
 
 fun Application.module() {
-//    configureHTTP()
     configureRouting(context.getBean(CustomerController::class.java))
 }

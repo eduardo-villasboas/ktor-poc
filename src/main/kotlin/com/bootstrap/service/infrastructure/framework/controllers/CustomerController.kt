@@ -5,7 +5,9 @@ import com.bootstrap.service.application.CustomerCrudUseCases
 import org.springframework.stereotype.Controller
 
 @Controller
-class CustomerController(private val customerCrudUseCases: CustomerCrudUseCases) {
+class CustomerController(
+    private val customerCrudUseCases: CustomerCrudUseCases
+) {
     fun findCustomer(): List<Customer> =
         customerCrudUseCases.findCustomer()
 

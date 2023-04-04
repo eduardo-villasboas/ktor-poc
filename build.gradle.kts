@@ -30,7 +30,11 @@ dependencies {
     implementation("io.ktor:ktor-serialization-jackson:$ktor_version")
     // https://mvnrepository.com/artifact/org.jetbrains.kotlinx/kotlinx-serialization-json-jvm
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json-jvm:1.5.0")
-    implementation("org.springframework:spring-context:6.0.6")
+    // https://mvnrepository.com/artifact/org.springframework/spring-context
+    implementation("org.springframework:spring-context:6.0.7")
+
+
+
     implementation("jakarta.enterprise:jakarta.enterprise.cdi-api:4.0.1")
 
     testImplementation("io.ktor:ktor-server-tests-jvm:$ktor_version")

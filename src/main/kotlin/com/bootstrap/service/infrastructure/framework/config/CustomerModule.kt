@@ -5,9 +5,9 @@ import org.springframework.context.annotation.Bean
 import org.springframework.stereotype.Component
 
 @Component
-class CustomerComponent {
+class CustomerModule {
 
     @Bean
-    fun customer(): CustomerCrudUseCases = CustomerCrudUseCases()
+    fun customerCrudUseCases() = CustomerCrudUseCases()
 
 }
